@@ -203,19 +203,3 @@ entire `site` directory to wherever you're hosting your website from and
 you're done. For specific instructions on a number of common hosts, see the
 [Deploying your Docs][deploy] page.
 
-## Getting help
-
-See the [User Guide] for more complete documentation of all of MkDocs' features.
-
-To get help with MkDocs, please use the [GitHub discussions] or [GitHub issues].
-
-[Installation Guide]: user-guide/installation.md
-[docs_dir]: user-guide/configuration.md#docs_dir
-[deploy]: user-guide/deploying-your-docs.md
-[nav]: user-guide/configuration.md#nav
-[GitHub discussions]: https://github.com/mkdocs/mkdocs/discussions
-[GitHub issues]: https://github.com/mkdocs/mkdocs/issues
-[site_name]: user-guide/configuration.md#site_name
-[site_url]: user-guide/configuration.md#site_url
-[theme]: user-guide/configuration.md#theme
-[User Guide]: user-guide/README.md
