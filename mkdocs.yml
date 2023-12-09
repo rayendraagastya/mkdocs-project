@@ -40,7 +40,7 @@ Mencegah terjadinya IP conflict yang sering terjadi pada suatu jaringan
 Dengan layanan DHCP, komputer client dapat menggunakan alamat IP dalam jangka waktu tertentu (tergantung pemberian server)
 Komputer client dapat menggunakan suatu alamat IP yang tidak dipakai oleh komputer client yang lain
 Selain itu, dengan adanya DHCP, kita dapat mengintegrasikan suatu mesin (host) ke dalam suatu jaringan, karena nantinya mesin tersebut akan mendapat alamat IP juga melalui pooling yang sebelumnya telah dibuat oleh server.
-  - About: about.md
+  
 
 
 
