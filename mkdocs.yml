@@ -1,6 +1,49 @@
 site_name: Rayendra Project
 nav:
   - Home: index.md
+<<<<<<< HEAD
+=======
+  
+
+Alasan mengapa banyak yang menerapkan DHCP adalah kemudahannya dalam pemberian alamat IP kepada komputer client/ perangkat jaringan (walau dalam jumlah yang banyak) secara otomatis. Jadi kita tidak perlu memberikan alamat IP secara manual kepada setiap komputer satu per satu.
+
+DHCP server tidak hanya memberikan alamat IP saja, tetapi juga memberikan netmask, host name, domain name, DNS, dan alamat gatewaynya juga. Selain itu, DHCP server juga dapat memberikan parameter lain seperti time server dan lain sebagainya.
+
+Dengan begini, seorang admin server tidak perlu lagi bersusah payah memberikan alamat IP kepada setiap komputer client yang ingin terhubung dengan jaringan. Kalau puluhan komputer client mungkin tidak menjadi masalah, lalu bagaimana kalau ribuan komputer client?
+
+[ez-toc]
+
+Perbedaan DHCP client dan DHCP server
+Pengertian DHCP dan Perbedaannya
+
+Dalam layanan DHCP, ada dua istilah yang perlu anda ketahui yaitu DHCP client dan DHCP server. Terus apa perbedaan diantara keduanya?
+
+Komputer yang bertugas memberikan alamat IP secara otomatis kepada komputer client disebut dengan DHCP server. Sedangkan komputer yang meminta alamat IP disebut dengan DHCP client.
+
+Cara kerja DHCP
+Pada saat user menghidupkan komputernya dan menghubungkannya ke server yang menggunakan layanan DHCP, maka komputer tersebut otomatis meminta (request) alamat IP ke server. Kemudian server menjawab permintaan komputer tersebut dan memberikannya sebuah alamat IP.
+
+cara kerja DHCP
+
+Untuk lebih jelas mengenai cara kerja DHCP, anda bisa menyimak proses-proses yang terjadi pada layanan DHCP sebagai berikut :
+
+IP Least Request
+Komputer client meminta alamat IP ke server
+IP Least Offer
+DHCP server yang memiliki list alamat IP memberikan penawaran kepada komputer client
+IP Lease Selection
+Komputer client memilih/ menyeleksi penawaran yang pertama kali diberikan DHCP, kemudian melakukan broadcast dengan mengirim pesan bahwa komputer client menyetujui penawaran tersebut
+IP Lease Acknowledge
+Pada tahap ini DHCP server menerima pesan tersebut dan mulai mengirim suatu paket acknowledge (DHCPACK) kepada client.
+Paket tersebut berisi berapa lama komputer client bisa menggunakan alamat IP tersebut (yang diberikan DHCP server) beserta konfigurasi lainnya. Dan komputer client pun dapat terhubung ke jaringan.
+Keuntungan Menggunakan Layanan DHCP
+Tidak perlu memberikan/ mengkonfigurasi alamat IP kepada client satu per satu
+Mencegah terjadinya IP conflict yang sering terjadi pada suatu jaringan
+Dengan layanan DHCP, komputer client dapat menggunakan alamat IP dalam jangka waktu tertentu (tergantung pemberian server)
+Komputer client dapat menggunakan suatu alamat IP yang tidak dipakai oleh komputer client yang lain
+Selain itu, dengan adanya DHCP, kita dapat mengintegrasikan suatu mesin (host) ke dalam suatu jaringan, karena nantinya mesin tersebut akan mendapat alamat IP juga melalui pooling yang sebelumnya telah dibuat oleh server.
+  
+>>>>>>> 0013ebb5c72585a9fd871fb83105022c0d72402e
 
 
 
